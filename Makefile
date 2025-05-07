@@ -1,2 +1,2 @@
 run:
-	uv run services/get_data/src/main.py
+	uv run services/${service}/src/main.py

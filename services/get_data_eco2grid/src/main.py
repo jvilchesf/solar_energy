@@ -15,7 +15,7 @@ if __name__ == "__main__":
     settings = Settings()
 
     # Initialize the API
-    api = API(
+    api = API_eco2grid(
         api_key=settings.api_key,
         limit=settings.limit,
         zone_code=settings.zone_code,
